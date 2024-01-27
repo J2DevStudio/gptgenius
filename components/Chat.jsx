@@ -38,7 +38,9 @@ const Chat = () => {
     setText("");
   };
 
-  console.log(messages);
+  //console.log(messages);
+  //will show sent and received responses, and a history for context
+  //as an array of objects, each object containing [role] and [content]
 
   const isPending = false;
 
